@@ -1,0 +1,7 @@
+<Context>
+	<Resource name="jdbc/CineDistrito" auth="Container" type="javax.sql.DataSource" 
+	maxActive="15" maxIdle="3" maxWait="5000"
+	username="admin" password="admin"
+	driverClassName="org.postgresql.Driver"
+	url="jdbc:postgresql://localhost:5432/CineDistrito"></Resource>
+</Context>
